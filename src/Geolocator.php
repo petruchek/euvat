@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ibericode\Vat;
+namespace Petruchek\EuVat;
 
-use Ibericode\Vat\Geolocation\IP2C;
-use Ibericode\Vat\Geolocation\IP2Country;
+use Petruchek\EuVat\Geolocation\IP2C;
+use Petruchek\EuVat\Geolocation\IP2Country;
 
 class Geolocator
 {

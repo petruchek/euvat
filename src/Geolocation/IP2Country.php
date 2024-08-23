@@ -1,13 +1,13 @@
 <?php
 
-namespace Ibericode\Vat\Geolocation;
+namespace Petruchek\EuVat\Geolocation;
 
 /**
  * Class IP2Country
  *
  * Geo-locates an IP address using ip2country.info
  *
- * @package Ibericode\Vat\Geolocation
+ * @package Petruchek\EuVat\Geolocation
  */
 class IP2Country implements GeolocatorInterface
 {

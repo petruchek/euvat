@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Ibericode\Vat;
+namespace Petruchek\EuVat;
 
 use DateTimeInterface;
 use DateTimeImmutable;
-use Ibericode\Vat\Clients\ClientException;
-use Ibericode\Vat\Clients\IbericodeVatRatesClient;
-use Ibericode\Vat\Clients\Client;
+use Petruchek\EuVat\Clients\ClientException;
+use Petruchek\EuVat\Clients\IbericodeVatRatesClient;
+use Petruchek\EuVat\Clients\Client;
 
 class Rates
 {

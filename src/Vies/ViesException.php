@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibericode\Vat\Vies;
+namespace Petruchek\EuVat\Vies;
 
 use Exception;
 

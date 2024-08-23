@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ibericode\Vat;
+namespace Petruchek\EuVat;
 
 use InvalidArgumentException;
 use DateTimeInterface;
@@ -10,7 +10,7 @@ use DateTimeInterface;
 /**
  * Class Period
  *
- * @package Ibericode\Vat
+ * @package Petruchek\EuVat
  * @internal
  */
 class Period

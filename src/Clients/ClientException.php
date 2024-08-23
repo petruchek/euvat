@@ -1,8 +1,8 @@
 <?php
 
-namespace Ibericode\Vat\Clients;
+namespace Petruchek\EuVat\Clients;
 
-use Ibericode\Vat\Exception;
+use Petruchek\EuVat\Exception;
 
 class ClientException extends Exception
 {

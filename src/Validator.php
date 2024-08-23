@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ibericode\Vat;
+namespace Petruchek\EuVat;
 
 class Validator
 {

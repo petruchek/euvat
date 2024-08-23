@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ibericode\Vat\Clients;
+namespace Petruchek\EuVat\Clients;
 
-use Ibericode\Vat\Period;
+use Petruchek\EuVat\Period;
 
 class IbericodeVatRatesClient implements Client
 {

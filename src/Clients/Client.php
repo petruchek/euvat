@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibericode\Vat\Clients;
+namespace Petruchek\EuVat\Clients;
 
 interface Client
 {

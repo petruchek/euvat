@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibericode\Vat\Geolocation;
+namespace Petruchek\EuVat\Geolocation;
 
 interface GeolocatorInterface
 {

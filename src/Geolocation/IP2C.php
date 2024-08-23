@@ -1,13 +1,13 @@
 <?php
 
-namespace Ibericode\Vat\Geolocation;
+namespace Petruchek\EuVat\Geolocation;
 
 /**
  * Class IP2C
  *
  * Geo-locates an IP address using ip2c.org
  *
- * @package Ibericode\Vat\Geolocation
+ * @package Petruchek\EuVat\Geolocation
  */
 class IP2C implements GeolocatorInterface
 {

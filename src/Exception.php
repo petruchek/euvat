@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibericode\Vat;
+namespace Petruchek\EuVat;
 
 class Exception extends \Exception
 {
