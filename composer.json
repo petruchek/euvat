@@ -1,12 +1,16 @@
 {
-  "name": "ibericode/vat",
-  "description": "PHP library for dealing with EU VAT",
+  "name": "petruchek/euvat",
+  "description": "Modified PHP library for dealing with EU VAT",
   "keywords": ["vat"],
   "license": "MIT",
   "authors": [
     {
       "name": "Danny van Kooten",
       "email": "hi@dvk.co"
+    },
+    {
+      "name": "Val Petruchek",
+      "email": "petruchek@gmail.com"
     }
   ],
   "require": {
@@ -33,7 +37,6 @@
   },
   "prefer-stable": true,
   "suggest": {
-    "ibericode/vat-bundle": "Symfony bundle for integrating this package",
     "ext-soap": "Needed to support VIES VAT number validation"
   }
 }

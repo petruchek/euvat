@@ -140,4 +140,22 @@ class Validator
     {
         return $this->validateVatNumberFormat($vatNumber) && $this->validateVatNumberExistence($vatNumber);
     }
+
+    /**
+     * Gets VAT details by VAT number
+     *
+     * @param string $vatNumber the full VAT number (incl. country)
+     *
+     * @return object
+     *
+     * @throws Vies\ViesException
+     */
+    public function getVatNumberDetails(string $vatNumber): object
+    {
+        $vatNumber = strtoupper($vatNumber);
+        $country = substr($vatNumber, 0, 2);
+        $number = substr($vatNumber, 2);
+        return $this->client->getVatDetails($country, $number);
+    }
+
 }

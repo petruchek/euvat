@@ -59,6 +59,30 @@ class Client
     }
 
     /**
+     * @param string $countryCode
+     * @param string $vatNumber
+     *
+     * @return object
+     *
+     * @throws ViesException
+     */
+    public function getVatDetails(string $countryCode, string $vatNumber): object
+    {
+        try {
+            $response = $this->getClient()->checkVat(
+                array(
+                    'countryCode' => $countryCode,
+                    'vatNumber' => $vatNumber
+                )
+            );
+        } catch (SoapFault $e) {
+            throw new ViesException($e->getMessage(), $e->getCode());
+        }
+
+        return $response;
+    }
+
+    /**
      * @return SoapClient
      */
     protected function getClient(): SoapClient
